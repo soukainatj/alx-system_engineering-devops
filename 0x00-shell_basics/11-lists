@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# List files in current directory
+ls -la
+
+# Change directory to parent directory and list files
+cd ..
+ls -la
+
+# Change directory to /boot and list files
+cd /boot
+ls -la
