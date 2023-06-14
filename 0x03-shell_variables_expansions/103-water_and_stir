@@ -1,0 +1,2 @@
+#!/bin/bash
+result=$(( WATER + STIR )); echo "ibase=10; obase=16; ${result}" | bc
